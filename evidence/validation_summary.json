@@ -1,0 +1,22 @@
+{
+  "environment": "Windows-11-10.0.26200-SP0",
+  "compiler": "g++ (Rev13, Built by MSYS2 project) 15.2.0",
+  "strategy_test_result": "69011 strategy assertions passed; model-only validation.",
+  "patch_tests_passed": true,
+  "replay_rows_per_binary": 421,
+  "exact_binary_rollback": true,
+  "baseline_restored_behavior_identical": true,
+  "protected_bytes_identical": true,
+  "features_exercised": [
+    "map selection",
+    "ethanol fuel compensation",
+    "launch torque limit",
+    "flat-shift torque limit"
+  ],
+  "protections_exercised": [
+    "thermal override",
+    "stale fuel sensor",
+    "torque tracking latch"
+  ],
+  "validation_scope": "Owned x86-64 host model; no ECU hardware or OEM strategy validation"
+}

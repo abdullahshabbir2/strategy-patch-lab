@@ -1,0 +1,8 @@
+0000000140001620 T lab::interpolate(lab::Calibration const&, unsigned int, float, float)
+00000001400f7000 R lab::calibration_blob
+00000001400014f0 T lab::valid_calibration(lab::Calibration const&)
+0000000140001490 T lab::default_calibration()
+0000000140001860 T lab::Strategy::step(lab::Inputs const&)
+0000000140001730 T lab::Strategy::Strategy(unsigned int, lab::Calibration)
+0000000140001730 T lab::Strategy::Strategy(unsigned int, lab::Calibration)
+00000001400df000 T strategy_features

@@ -1,0 +1,239 @@
+{
+  "format": "PE32+",
+  "machine": "AMD64 host model",
+  "image_base": 5368709120,
+  "sha256": "7ab6c5786c6948cca9e1a7fdba1e6144789f63fdff6b35db73859aa0f9ed0d82",
+  "size": 3131724,
+  "sections": [
+    {
+      "name": ".text",
+      "rva": 4096,
+      "virtual_size": 908960,
+      "raw_offset": 1536,
+      "raw_size": 909312,
+      "flags": 1610612768
+    },
+    {
+      "name": ".patch",
+      "rva": 913408,
+      "virtual_size": 16,
+      "raw_offset": 910848,
+      "raw_size": 512,
+      "flags": 1610612768
+    },
+    {
+      "name": ".data",
+      "rva": 917504,
+      "virtual_size": 12768,
+      "raw_offset": 911360,
+      "raw_size": 12800,
+      "flags": 3221225536
+    },
+    {
+      "name": ".rdata",
+      "rva": 933888,
+      "virtual_size": 75648,
+      "raw_offset": 924160,
+      "raw_size": 75776,
+      "flags": 1073741888
+    },
+    {
+      "name": ".cal",
+      "rva": 1011712,
+      "virtual_size": 160,
+      "raw_offset": 999936,
+      "raw_size": 512,
+      "flags": 1073741888
+    },
+    {
+      "name": ".pdata",
+      "rva": 1015808,
+      "virtual_size": 48780,
+      "raw_offset": 1000448,
+      "raw_size": 49152,
+      "flags": 1073741888
+    },
+    {
+      "name": ".xdata",
+      "rva": 1064960,
+      "virtual_size": 67884,
+      "raw_offset": 1049600,
+      "raw_size": 68096,
+      "flags": 1073741888
+    },
+    {
+      "name": ".bss",
+      "rva": 1134592,
+      "virtual_size": 3088,
+      "raw_offset": 0,
+      "raw_size": 0,
+      "flags": 3221225600
+    },
+    {
+      "name": ".idata",
+      "rva": 1138688,
+      "virtual_size": 6024,
+      "raw_offset": 1117696,
+      "raw_size": 6144,
+      "flags": 1073741888
+    },
+    {
+      "name": ".tls",
+      "rva": 1146880,
+      "virtual_size": 16,
+      "raw_offset": 1123840,
+      "raw_size": 512,
+      "flags": 3221225536
+    },
+    {
+      "name": ".rsrc",
+      "rva": 1150976,
+      "virtual_size": 1256,
+      "raw_offset": 1124352,
+      "raw_size": 1536,
+      "flags": 1073741888
+    },
+    {
+      "name": ".reloc",
+      "rva": 1155072,
+      "virtual_size": 6124,
+      "raw_offset": 1125888,
+      "raw_size": 6144,
+      "flags": 1107296320
+    },
+    {
+      "name": "/4",
+      "rva": 1163264,
+      "virtual_size": 2384,
+      "raw_offset": 1132032,
+      "raw_size": 2560,
+      "flags": 1107296320
+    },
+    {
+      "name": "/19",
+      "rva": 1167360,
+      "virtual_size": 99978,
+      "raw_offset": 1134592,
+      "raw_size": 100352,
+      "flags": 1107296320
+    },
+    {
+      "name": "/31",
+      "rva": 1269760,
+      "virtual_size": 19053,
+      "raw_offset": 1234944,
+      "raw_size": 19456,
+      "flags": 1107296320
+    },
+    {
+      "name": "/45",
+      "rva": 1290240,
+      "virtual_size": 45499,
+      "raw_offset": 1254400,
+      "raw_size": 45568,
+      "flags": 1107296320
+    },
+    {
+      "name": "/57",
+      "rva": 1339392,
+      "virtual_size": 6984,
+      "raw_offset": 1299968,
+      "raw_size": 7168,
+      "flags": 1107296320
+    },
+    {
+      "name": "/70",
+      "rva": 1347584,
+      "virtual_size": 1008,
+      "raw_offset": 1307136,
+      "raw_size": 1024,
+      "flags": 1107296320
+    },
+    {
+      "name": "/81",
+      "rva": 1351680,
+      "virtual_size": 11998,
+      "raw_offset": 1308160,
+      "raw_size": 12288,
+      "flags": 1107296320
+    },
+    {
+      "name": "/97",
+      "rva": 1363968,
+      "virtual_size": 55900,
+      "raw_offset": 1320448,
+      "raw_size": 56320,
+      "flags": 1107296320
+    },
+    {
+      "name": "/113",
+      "rva": 1421312,
+      "virtual_size": 1637,
+      "raw_offset": 1376768,
+      "raw_size": 2048,
+      "flags": 1107296320
+    }
+  ],
+  "gate": {
+    "file_offset": 910848,
+    "rva": 913408,
+    "virtual_address": 5369622528,
+    "bytes": "b80000175ac3",
+    "features": 0
+  },
+  "checksum": {
+    "offset": 216,
+    "stored": 3156658,
+    "calculated": 3156658
+  },
+  "calibration": {
+    "file_offset": 999936,
+    "rva": 1011712,
+    "encoding": "33 little-endian IEEE-754 floats; rpm axis, pedal axis, three row-major maps",
+    "rpm_axis": [
+      1000.0,
+      3000.0,
+      6000.0
+    ],
+    "pedal_axis": [
+      0.0,
+      50.0,
+      100.0
+    ],
+    "torque_maps": [
+      [
+        0.0,
+        80.0,
+        160.0,
+        0.0,
+        100.0,
+        200.0,
+        0.0,
+        90.0,
+        180.0
+      ],
+      [
+        0.0,
+        110.0,
+        220.0,
+        0.0,
+        140.0,
+        280.0,
+        0.0,
+        125.0,
+        250.0
+      ],
+      [
+        0.0,
+        130.0,
+        260.0,
+        0.0,
+        175.0,
+        350.0,
+        0.0,
+        150.0,
+        300.0
+      ]
+    ]
+  }
+}

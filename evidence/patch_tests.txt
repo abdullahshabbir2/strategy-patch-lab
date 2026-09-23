@@ -1,0 +1,16 @@
+test_bad_receipt (test_patch.PatchTests.test_bad_receipt) ... ok
+test_calibration_extracted_from_binary (test_patch.PatchTests.test_calibration_extracted_from_binary) ... ok
+test_cli_patch_rollback_and_no_overwrite (test_patch.PatchTests.test_cli_patch_rollback_and_no_overwrite) ... ok
+test_disallowed_manifest_edits (test_patch.PatchTests.test_disallowed_manifest_edits) ... ok
+test_exact_rollback (test_patch.PatchTests.test_exact_rollback) ... ok
+test_instruction_patch_and_mapping (test_patch.PatchTests.test_instruction_patch_and_mapping) ... ok
+test_native_windows_checksum_oracle (test_patch.PatchTests.test_native_windows_checksum_oracle) ... ok
+test_only_allowlisted_bytes_change (test_patch.PatchTests.test_only_allowlisted_bytes_change) ... ok
+test_signed_image_rejected (test_patch.PatchTests.test_signed_image_rejected) ... ok
+test_truncated_and_wrong_format (test_patch.PatchTests.test_truncated_and_wrong_format) ... ok
+test_wrong_binary_and_double_apply (test_patch.PatchTests.test_wrong_binary_and_double_apply) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 15.009s
+
+OK

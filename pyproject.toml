@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "strategy-patch-lab"
+version = "1.0.0"
+description = "Owned executable strategy modification with byte preconditions and exact rollback"
+requires-python = ">=3.10"
+dependencies = []
+authors = [{name = "Abdullah Shabbir"}]
+license = {file = "LICENSE"}
+
+[project.scripts]
+strategy-patch = "patchlab.__main__:main"
+
+[tool.setuptools]
+packages = ["patchlab"]

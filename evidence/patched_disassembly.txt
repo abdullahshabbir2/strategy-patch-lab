@@ -1,0 +1,18 @@
+
+build/strategy_patched.exe:     file format pei-x86-64
+
+
+Disassembly of section .patch:
+
+00000001400df000 <strategy_features>:
+   1400df000:	b8 0f 00 17 5a       	mov    $0x5a17000f,%eax
+   1400df005:	c3                   	ret
+   1400df006:	0f 0b                	ud2
+   1400df008:	90                   	nop
+   1400df009:	90                   	nop
+   1400df00a:	90                   	nop
+   1400df00b:	90                   	nop
+   1400df00c:	90                   	nop
+   1400df00d:	90                   	nop
+   1400df00e:	90                   	nop
+   1400df00f:	90                   	nop

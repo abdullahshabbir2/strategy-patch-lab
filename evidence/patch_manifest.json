@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "baseline_sha256": "7ab6c5786c6948cca9e1a7fdba1e6144789f63fdff6b35db73859aa0f9ed0d82",
+  "file_offset": 910848,
+  "expected_bytes": "b80000175ac3",
+  "replacement_bytes": "b80f00175ac3"
+}
